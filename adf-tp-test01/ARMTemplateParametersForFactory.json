@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-tp-test01"
+		},
+		"AzureSqlDatabase2_password": {
+			"value": ""
+		},
+		"LS_AzureBlobStorage_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "db-tp-test01.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "dataase-test01"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_server": {
+			"value": "sqldatabasetest001.database.windows.net"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_database": {
+			"value": "database-test-01"
+		},
+		"AzureSqlDatabase2_properties_typeProperties_userName": {
+			"value": "sqltestadmin"
+		}
+	}
+}
